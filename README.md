@@ -14,8 +14,8 @@ C# <br>
 #### about this project
 WaveBoy was a contest entry into the 2017 Global Game Jam, specifically at the NYC site(The largest GGJ site in the United States). The game is a VR experience played with an exercise bike and touch controls! Take on the role of Wave Boy, a heroic neighborhood paperboy who delivers both friendly waves and fresh copies of the Wave Street Journal to the citizens to Wave Town. Developed with Unity3D, SDKs, and some 3D modeling, feel free to clone and play this on your Oculus at home. As a GGJ Demo, there is only one level unfortunately, but it is a fine time! Enjoy!
 
-### code
-In order to allow users to actually 'Wave' at characters in the game and get even more points in addition to throwing and delivering their newspapers, a Ray caster system had to be implemented [rayCasterWave](#rayCasterWave) in the application's Scripts. This occurs only if the trigger on the Left, Right, or both hand controller triggers are pulled.
+#### code snippets
+In order to allow users to actually 'Wave' at characters in the game and get even more points in addition to throwing and delivering their newspapers, a Ray caster wave system or [rayCasterWave](#rayCasterWave) had to be implemented in the application's scripts. This occurs only if the trigger on the Left, Right, or both hand controller triggers are pulled.
 
 #### rayCasterWave
 code below is quoted from: WaveBoyWaveDetector.cs
